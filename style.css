@@ -1,0 +1,157 @@
+/*Go to Goggle font to get the fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Merienda&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+body {
+  background: #cdeef4;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Merienda";
+  font-style: normal;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 79px;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Merienda";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 39px;
+  text-align: center;
+  color: #ffffff;
+}
+
+p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+a {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav {
+  background-color: #289eb8;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#tagline {
+  background: #1a6475;
+  padding: 0.5em;
+}
+
+#info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2.75em;
+  column-gap: 2em;
+  max-width: 1400px;
+  margin: auto;
+}
+
+.work1 {
+  background-color: #289eb8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+  width: 755px;
+  height: 558px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 3em;
+}
+
+.work2 {
+  background-color: #289eb8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+  width: 755px;
+  height: 558px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap-reverse;
+  align-items: flex-start;
+  margin: 3em;
+}
+
+.project-description1{
+  width: 376.5px;
+}
+
+.work3 {
+  background-color: #289eb8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+  width: 755px;
+  height: 925px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin: 3em;
+}
+
+.work4 {
+  background-color: #289eb8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+  width: 755px;
+  height: 925px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin: 3em;
+}
+.link{
+  background-color: #1a6475;
+  border-radius: 8px;
+  padding: 10px;
+  transition-duration: 750ms;
+}
+
+.link:hover {
+  background-color: #0d3944;
+}
+
+footer {
+  background: #0d3944;
+  height: 200px;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+
+.media{
+  transition: max-height 750ms linear 0.5s;
+}
+
+.media:hover {
+  max-height: 40px;
+}
+
+.photo1{
+  max-width: 100%;
+  width: 377px;
+  height: 558px;
+}
+
+.photo2 img{
+  max-width: 100%;
+  width: 755px;
+  height: 545px;
+}
